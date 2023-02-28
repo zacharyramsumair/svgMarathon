@@ -1,18 +1,28 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-
-main{
+nav{
     display: flex;
-    justify-content: center;
+    height: 5vh;
+    background-color: rgb(87, 171, 219);
     align-items: center;
-    height: 100vh;
+    padding: 0 1em;
 }
 
+.navItems{
+    text-decoration: none;
+}
 
-#house{
-    width: 300px;
+.firstHouse {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#houseEmpty {
+	width: 300px;
 }
