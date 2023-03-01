@@ -6,23 +6,34 @@
 
 nav{
     display: flex;
-    height: 5vh;
+    height: 8vh;
     background-color: rgb(87, 171, 219);
     align-items: center;
     padding: 0 1em;
+    justify-content: space-around;
+    position: relative;
+}
+
+nav > .hamburger{
+    width: 3em;
+    position: absolute;
+    right: 1em;
+
+
 }
 
 .navItems{
     text-decoration: none;
 }
 
-.firstHouse {
+.firstHouse ,.burger {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 }
 
-#houseEmpty {
-	width: 300px;
+#houseEmpty , .hamburger{
+	width: 40%;
 }
+
