@@ -6,12 +6,70 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Empty House</title>
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./navbarResponsive.css">
+
 	</head>
 	<body>
 		<main>
-			<nav>
-				<a href="./emptyHouse.html" class="navItems"> Empty House</a>
-				<a href="./hamburger.html" class="navItems"> Hamburger</a>
+			<nav class="responsiveNav">
+				<div class="logo">&lt;SVG/&gt;</div>
+	
+				
+	
+				<div class="navStuff">
+	
+					<ul class="links">
+						<li class="navItems">
+							<a href="./emptyHouse.html" class="navItems"> Empty House</a>
+						</li>
+						<li class="navItems"><a href="./hamburger.html" class="navItems"> Hamburger</a></li>
+						<li class="navItems">
+							<a href="./navbarResponsive.html" class="navItems"> Responsive Navbar</a>
+						</li>
+					</ul>
+	
+	
+					<svg
+					class="hamburger"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 330 134"
+				>
+					<rect
+						id="line-1"
+						x="101"
+						y="88"
+						width="164"
+						height="13"
+						rx="3"
+						stroke="#231f20"
+						stroke-miterlimit="10"
+					/>
+					<rect
+						id="line-2"
+						data-name="line"
+						x="101"
+						y="62"
+						width="164"
+						height="13"
+						rx="3"
+						stroke="#231f20"
+						stroke-miterlimit="10"
+					/>
+					<rect
+						id="line-3"
+						data-name="line"
+						x="101"
+						y="36"
+						width="164"
+						height="13"
+						rx="3"
+						stroke="#231f20"
+						stroke-miterlimit="10"
+					/>
+				</svg>
+				</div>
+	
+			   
 			</nav>
 
 			<section class="firstHouse">
@@ -68,5 +126,8 @@
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 		<script src="./js/emptyHouse.js"></script>
+
+
+		<script src="./js/navbarResponsive.js"></script>
 	</body>
 </html>
