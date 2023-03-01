@@ -17,7 +17,7 @@
     align-items: center;
     justify-content: space-between  ;
     height: 3em;
-    background-color: aqua;
+    background-color: #00ffff;
     padding: 1em;
     position: relative;
     color: var(--navlinkColor);
@@ -56,12 +56,14 @@
 
 .navItems > a{
     text-decoration: none;
+
 }
+
 
 
 .hamburger{
     display: none;
-    width: 4em;
+    width: 3.5em;
     cursor: pointer;
 }
 
