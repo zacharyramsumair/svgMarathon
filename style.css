@@ -26,17 +26,44 @@ nav > .hamburger{
     text-decoration: none;
 }
 
-.firstHouse ,.burger {
+.firstHouse ,.burger , .batteryContainer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 90vh;
 }
 
 #houseEmpty , .hamburger{
 	width: 40%;
 }
 
+.battery{
+    width: 30%;
+    opacity: 0;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 0;
+    animation: empty 3s 1s cubic-bezier(1, 0.55, 1, 1) forwards;
+    stroke: #d3092b;
 
+}
+
+
+
+@keyframes empty {
+    0%{
+        opacity: 1;
+
+stroke-dashoffset: 100;
+    }
+
+
+    100%{
+        opacity: 1;
+
+
+        stroke-dashoffset: 0;
+
+    }
+}
 
 
