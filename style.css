@@ -10,7 +10,7 @@ nav{
     background-color: rgb(87, 171, 219);
     align-items: center;
     padding: 0 1em;
-    justify-content: space-around;
+    justify-content: space-between;
     position: relative;
 }
 
@@ -46,6 +46,10 @@ nav > .hamburger{
     stroke: #d3092b;
 
 }
+
+/* .links{
+    width: 30%;
+} */
 
 
 
